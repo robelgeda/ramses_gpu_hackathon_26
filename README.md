@@ -8,18 +8,6 @@ GPU port and profiling work on RAMSES for the 2026 Princeton/NVIDIA Open Hackath
 - GPU version ("mini-ramses"): [bitbucket.org/rteyssie/mini-ramses](https://bitbucket.org/rteyssie/mini-ramses/src/develop/)
 - Main RAMSES repo: [ramses-organisation/ramses](https://github.com/ramses-organisation/ramses)
 
-## Cluster access
-
-For the Princeton/NVIDIA Open Hackathon, reserved GPU nodes on Della and Stellar are available starting May 26, 2026. Request them with the Slurm reservation flag:
-
-`SBATCH --reservation=openhack`
-
-Background on Princeton GPU jobs:
-
-- [gpu_programming_intro](https://github.com/PrincetonUniversity/gpu_programming_intro/tree/master/03_your_first_gpu_job)
-- [Research Computing Slurm/GPU docs](https://researchcomputing.princeton.edu/support/knowledge-base/slurm#gpus)
-
-
 ## Wiki index
 
 Fixes and profiling write-ups from the hackathon:
@@ -31,6 +19,19 @@ Fixes and profiling write-ups from the hackathon:
 - [(Sedov3d Unigrid) Troels Hydro Kernel Profiling](<https://github.com/robelgeda/ramses_gpu_hackathon_26/wiki/(Sedov3d-Unigrid)-Troels-Hydro-Kernel-Profiling>)
 - [(Coeur AMR) Nsight Compute](<https://github.com/robelgeda/ramses_gpu_hackathon_26/wiki/(Coeur-AMR)-Nsight-Compute>)
 - [How to Run DMO Cosmo Test Sim on GPU](https://github.com/robelgeda/ramses_gpu_hackathon_26/wiki/How-to-Run-DMO-Cosmo-Test-Sim-on-GPU)
+
+
+## Cluster access
+
+For the Princeton/NVIDIA Open Hackathon, reserved GPU nodes on Della and Stellar are available starting May 26, 2026. Request them with the Slurm reservation flag:
+
+`SBATCH --reservation=openhack`
+
+Background on Princeton GPU jobs:
+
+- [gpu_programming_intro](https://github.com/PrincetonUniversity/gpu_programming_intro/tree/master/03_your_first_gpu_job)
+- [Research Computing Slurm/GPU docs](https://researchcomputing.princeton.edu/support/knowledge-base/slurm#gpus)
+
 
 ## Build
 
